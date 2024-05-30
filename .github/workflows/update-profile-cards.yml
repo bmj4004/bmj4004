@@ -1,0 +1,102 @@
+name: Update profile cards
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/update-profile-cards.yml
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate GitHub statistics card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&theme=ambient_gradient&custom_title=Minjun%27s%20GitHub%20Stats
+          path: profile/stats.svg
+          token: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=pie&theme=radical&langs_count=7&hide_border=false
+          path: profile/top-langs.svg
+          token: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Generate trophy card
+        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
+        with:
+          username: ${{ github.repository_owner }}
+          file: profile/trophy.svg
+          theme: chalk
+          margin-width: 6
+          margin-height: 4
+          no-frame: true
+          token: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Generate streak card
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=${{ github.repository_owner }}&theme=ambient-gradient&border_radius=10&disable_animations=true
+          path: profile/streak.svg
+          token: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Check out activity graph generator
+        uses: actions/checkout@v6
+        with:
+          repository: Ashutosh00710/github-readme-activity-graph
+          path: .tools/activity-graph
+
+      - name: Set up Node.js for activity graph
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Build activity graph generator
+        working-directory: .tools/activity-graph
+        run: |
+          npm install
+          npm run build
+
+      - name: Generate activity graph card
+        env:
+          PORT: 5100
+          TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          node .tools/activity-graph/dist/main.js &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          for attempt in {1..20}; do
+            if curl --fail --silent http://127.0.0.1:5100/ >/dev/null; then
+              break
+            fi
+            sleep 1
+          done
+          curl --fail --show-error --get http://127.0.0.1:5100/graph \
+            --data-urlencode "username=${{ github.repository_owner }}" \
+            --data-urlencode "theme=react-dark" \
+            --data-urlencode "bg_color=262626" \
+            --data-urlencode "point=ffffaf" \
+            --data-urlencode "custom_title=Minjun's Contribution Graph" \
+            --data-urlencode "radius=5" \
+            --output profile/activity-graph.svg
+
+      - name: Commit refreshed cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git diff --cached --quiet || git commit -m "chore: refresh profile cards"
+          git push
