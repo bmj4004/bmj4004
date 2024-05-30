@@ -1,8 +1,3 @@
-[link keyword][id]
+[Portfolio][id]
 
-[id]: URL "Optional Title here"
-
-// code
-Link: [Portfolio][link]
-
-[link]: https://bmj4004.gtihub.io "Go Portfolio"
+[id]: https://bmj4004.github.io "Go to Portfolio Site"
