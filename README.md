@@ -32,6 +32,18 @@
 
 ---
 
+<!-- ===== CONTACT ===== -->
+<div style="text-align: left;">
+  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🧑‍💻 Contact</h2>
+  <div align="left" style="font-size: 15px; font-weight: 600; margin-top: 10px;">
+    <a href="mailto:alswns834@g.skku.edu" style="text-decoration: none; color: inherit;">
+      <img src="https://img.shields.io/badge/alswns834@g.skku.edu-EA4335?style=flat&logo=Gmail&logoColor=white" style="vertical-align: middle; margin-right: 8px;">
+    </a>
+  </div>
+</div>
+
+---
+
 <!-- ===== GITHUB STATS + STREAK ===== -->
 <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">✨ GitHub Status</h2>
 
@@ -64,20 +76,6 @@
     <img src="http://mazandi.herokuapp.com/api?handle=bmj0911&theme=dark" height="150" style="vertical-align: middle;">
   </a>
 </div>
-
----
-
-<!-- ===== CONTACT ===== -->
-<div style="text-align: left;">
-  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🧑‍💻 Contact</h2>
-  <div align="left" style="font-size: 15px; font-weight: 600; margin-top: 10px;">
-    <a href="mailto:alswns834@g.skku.edu" style="text-decoration: none; color: inherit;">
-      <img src="https://img.shields.io/badge/alswns834@g.skku.edu-EA4335?style=flat&logo=Gmail&logoColor=white" style="vertical-align: middle; margin-right: 8px;">
-    </a>
-  </div>
-</div>
-
----
 
 <!-- ===== FOOTER ===== -->
 <div align="center">
