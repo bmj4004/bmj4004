@@ -27,7 +27,9 @@
 
 <!-- ===== MOST USED LANGUAGES ===== -->
 <div align="left">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bmj4004&layout=compact&theme=ambient_gradient&langs_count=8&hide_border=false" />
+  <a href="https://github.com/bmj4004/github-readme-stats">
+    <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bmj4004&layout=donut&theme=ambient_gradient&langs_count=8&hide_border=false" />
+  </a>
 </div>
 
 ---
