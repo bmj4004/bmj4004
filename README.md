@@ -7,30 +7,58 @@
 ---
 
 <!-- ===== TECH STACK ===== -->
-<div style="text-align: left;"> 
-  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">
-    <img src="https://github.com/user-attachments/assets/e6545104-9618-4c19-8cd8-948cf4edd978" width="22" style="vertical-align: middle;"> 
-    &nbsp; Tech Stack &nbsp; 
-    <img src="https://github.com/user-attachments/assets/e6545104-9618-4c19-8cd8-948cf4edd978" width="22" style="vertical-align: middle;">
-  </h2>  
-  <div align="left" style="margin-top: 10px;">
-    <img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=C&logoColor=white">
-    <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=Cplusplus&logoColor=white">
-    <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white">
-    <img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=Linux&logoColor=black">
-    <img src="https://img.shields.io/badge/Kernel-333333?style=flat&logo=linux&logoColor=white">
-  </div>
+<table align="center">
+<tr>
+<td width="60%" valign="top">
+
+## <img src="https://github.com/user-attachments/assets/e6545104-9618-4c19-8cd8-948cf4edd978" width="22"> Tech Stack <img src="https://github.com/user-attachments/assets/e6545104-9618-4c19-8cd8-948cf4edd978" width="22">
+
+### 💻 Programming Languages
+<p>
+<img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=C&logoColor=white">
+<img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=Cplusplus&logoColor=white">
+<img src="https://img.shields.io/badge/Java-007396?style=flat&logo=Java&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=Python&logoColor=white">
+</p>
+
+### 🛠 Tools & Platforms
+<p>
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=Linux&logoColor=black">
+<img src="https://img.shields.io/badge/Kernel-333333?style=flat&logo=linux&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=GitHub&logoColor=white">
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=Docker&logoColor=white">
+<img src="https://img.shields.io/badge/ROS2-22314E?style=flat&logo=ros&logoColor=white">
+</p>
+
+### 📚 In Studying
+<p>
+<img src="https://img.shields.io/badge/Linux%20Kernel%20Internals-333333?style=flat&logo=linux&logoColor=white">
+<img src="https://img.shields.io/badge/Networking%20Stack-0078D4?style=flat&logo=socketdotio&logoColor=white">
+<img src="https://img.shields.io/badge/Systems%20Performance-FCC624?style=flat&logo=Prometheus&logoColor=white">
+</p>
+
+### 🚀 Interests
+<p>
+<img src="https://img.shields.io/badge/Storage%20Systems-5bbff1?style=flat&logo=databricks&logoColor=white">
+<img src="https://img.shields.io/badge/Networking-c43df5?style=flat&logo=cloudflare&logoColor=white">
+<img src="https://img.shields.io/badge/Operating%20Systems-555555?style=flat&logo=archlinux&logoColor=white">
+<img src="https://img.shields.io/badge/Distributed%20Computing-4CAF50?style=flat&logo=apache&logoColor=white">
+</p>
+
+</td>
+<td width="40%" valign="top">
+
+<br/><br/>
+
+<div align="center">
+<a href="https://github.com/bmj4004/github-readme-stats">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bmj4004&layout=pie&theme=radical&langs_count=6&hide_border=false" width="100%" />
+</a>
 </div>
 
-<br/>
-
-<!-- ===== MOST USED LANGUAGES ===== -->
-<div align="left">
-  <a href="https://github.com/bmj4004/github-readme-stats">
-    <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=bmj4004&layout=donut&theme=ambient_gradient&langs_count=8&hide_border=false" />
-  </a>
-</div>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -57,7 +85,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bmj4004&theme=ambient-gradient&bg_color=262626&point=ffffaf&custom_title=Minjun's+Contribution+Graph&radius=5" width="95%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bmj4004&theme=react-dark&bg_color=262626&point=ffffaf&custom_title=Minjun's+Contribution+Graph&radius=5" width="95%"/>
 </div>
 
 <!-- ===== TROPHY + SOLVED.AC ===== -->
