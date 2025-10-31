@@ -88,9 +88,9 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=bmj4004&theme=react-dark&bg_color=262626&point=ffffaf&custom_title=Minjun's+Contribution+Graph&radius=5" width="95%"/>
 </div>
 
-<!-- ===== TROPHY + SOLVED.AC ===== -->
+<!-- ===== TROPHY ===== -->
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=bmj4004&theme=chalk&margin-w=6&margin-h=6&no-frame=true&title=Commits,Stars,Followers,Repositories" width="90%">
+  <img src="https://github-profile-trophy.vercel.app/?username=bmj4004&theme=nord&margin-w=6&margin-h=4&no-frame=true" alt="trophy"/>
 </div>
 
 ---
