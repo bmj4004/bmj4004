@@ -96,7 +96,7 @@
 ---
 
 <!-- ===== SOLVED.AC + MAZANDI (DARK THEME) ===== -->
-<h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🎯 Solve.ac Tier</h2>
+<h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🎯 Solved.ac Tier</h2>
 
 <div align="center">
   <a href="https://solved.ac/bmj0911">
