@@ -30,14 +30,14 @@
 <img src="https://img.shields.io/badge/ROS2-22314E?style=flat&logo=ros&logoColor=white">
 </p>
 
-### 📚 In Studying
+### 📚 In Studying ...
 <p>
 <img src="https://img.shields.io/badge/Linux%20Kernel%20Internals-333333?style=flat&logo=linux&logoColor=white">
 <img src="https://img.shields.io/badge/Networking%20Stack-0078D4?style=flat&logo=socketdotio&logoColor=white">
 <img src="https://img.shields.io/badge/Systems%20Performance-FCC624?style=flat&logo=Prometheus&logoColor=white">
 </p>
 
-### 🚀 Interests
+### 🚀 Interested in ...
 <p>
 <img src="https://img.shields.io/badge/Storage%20Systems-5bbff1?style=flat&logo=databricks&logoColor=white">
 <img src="https://img.shields.io/badge/Networking-c43df5?style=flat&logo=cloudflare&logoColor=white">
