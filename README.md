@@ -90,7 +90,7 @@
 
 <!-- ===== TROPHY ===== -->
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=bmj4004&theme=nord&margin-w=6&margin-h=4&no-frame=true" alt="trophy"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=bmj4004&theme=chalk&margin-w=6&margin-h=4&no-frame=true" alt="trophy"/>
 </div>
 
 ---
