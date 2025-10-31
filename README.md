@@ -1,13 +1,18 @@
-<!-- ===== HEADER ===== -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:5bbff1,50:c43df5,100:5bbff1&height=140&text=bmj4004%20Github&animation=fadeIn&fontColor=ffffff&fontSize=45&reversal=false&desc=Systems%20|%20Kernel%20|%20Networking%20|%20Performance&descAlignY=82&descAlign=50&fontGradient=000000,333333,777777,AAAAAA" />
+  <img src="https://capsule-render.vercel.app/api?type=soft&color=0:5bbff1,50:c43df5,100:5bbff1&height=140&text=bmj4004%20Github&animation=fadeIn&fontColor=ffffff&fontSize=45" />
+  <br/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=2500&color=FFFFFF&center=true&vCenter=true&width=600&lines=Systems+|+Kernel+|+Network+|+Storage" />
 </div>
 
 ---
 
 <!-- ===== TECH STACK ===== -->
 <div style="text-align: left;"> 
-  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🛠️ Tech Stack</h2>  
+  <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">
+    <img src="https://github.com/user-attachments/assets/e6545104-9618-4c19-8cd8-948cf4edd978" width="22" style="vertical-align: middle;"> 
+    &nbsp; Tech Stack &nbsp; 
+    <img src="https://github.com/user-attachments/assets/e6545104-9618-4c19-8cd8-948cf4edd978" width="22" style="vertical-align: middle;">
+  </h2>  
   <div align="left" style="margin-top: 10px;">
     <img src="https://img.shields.io/badge/C-A8B9CC?style=flat&logo=C&logoColor=white">
     <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=Cplusplus&logoColor=white">
@@ -48,11 +53,15 @@
 
 ---
 
+<!-- ===== SOLVED.AC + MAZANDI (DARK THEME) ===== -->
 <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🎯 Solve.ac Tier</h2>
 
 <div align="center">
   <a href="https://solved.ac/bmj0911">
-    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=bmj0911" height="150">
+    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=bmj0911" height="150" style="vertical-align: middle; margin-right: 20px;">
+  </a>
+  <a href="https://solved.ac/bmj0911">
+    <img src="http://mazandi.herokuapp.com/api?handle=bmj0911&theme=dark" height="150" style="vertical-align: middle;">
   </a>
 </div>
 
@@ -63,8 +72,7 @@
   <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">🧑‍💻 Contact</h2>
   <div align="left" style="font-size: 15px; font-weight: 600; margin-top: 10px;">
     <a href="mailto:alswns834@g.skku.edu" style="text-decoration: none; color: inherit;">
-      <img src="https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=Gmail&logoColor=white" style="vertical-align: middle; margin-right: 8px;">
-      alswns834@g.skku.edu
+      <img src="https://img.shields.io/badge/alswns834@g.skku.edu-EA4335?style=flat&logo=Gmail&logoColor=white" style="vertical-align: middle; margin-right: 8px;">
     </a>
   </div>
 </div>
