@@ -52,7 +52,7 @@
 
 <div align="center">
 <a href="https://github.com/bmj4004/github-readme-stats">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bmj4004&layout=pie&theme=radical&langs_count=6&hide_border=false" width="100%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bmj4004&layout=pie&theme=radical&langs_count=7&hide_border=false" width="100%" />
 </a>
 </div>
 
