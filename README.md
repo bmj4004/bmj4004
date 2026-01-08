@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=soft&color=0:5bbff1,50:c43df5,100:5bbff1&height=140&text=bmj4004%20Github&animation=fadeIn&fontColor=ffffff&fontSize=45" />
   <br/>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=2500&color=FFFFFF&center=true&vCenter=true&width=600&lines=Systems+|+Kernel+|+Network+|+Storage" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=2500&color=FFFFFF&center=true&vCenter=true&width=600&lines=Systems+|+Network" />
 </div>
 
 ---
