@@ -54,7 +54,7 @@
 <tr>
 <td width="60%" valign="top">
 
-## <img src="https://github.com/user-attachments/assets/e6545104-9618-4c19-8cd8-948cf4edd978" width="22"> Tech Stack <img src="https://github.com/user-attachments/assets/e6545104-9618-4c19-8cd8-948cf4edd978" width="22">
+## <img src="./profile/tech-stack-icon.gif" width="22"> Tech Stack <img src="./profile/tech-stack-icon.gif" width="22">
 
 ### 💻 Programming Languages
 <p>
